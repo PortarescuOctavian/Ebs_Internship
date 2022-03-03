@@ -2,8 +2,8 @@ from requests import Response
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.viewsets import ModelViewSet
 
-from .models import Product, Image
-from .serializers import ProductSerializer, ImageSerializer
+from apps.produse.models import Product, Image
+from apps.produse.serializers import ProductSerializer, ImageSerializer
 
 
 class ProductViewSet(ModelViewSet):
